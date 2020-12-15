@@ -1,0 +1,27 @@
+{
+	"parser": "babel-eslint",
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": [
+		"airbnb-base"
+	],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {
+		"indent": [2,"tab"],
+		"no-tabs": "off",
+		"semi": ["warn", "never"],
+		"no-extra-semi": "warn",
+		"no-underscore-dangle": "off",
+		"class-methods-use-this": "warn",
+		"import/prefer-default-export": "off"
+	}
+}
